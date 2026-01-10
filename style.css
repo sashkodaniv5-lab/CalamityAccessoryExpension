@@ -20,3 +20,19 @@
 .second-row {
     margin-left: 0;   /* align under first row */
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; /* adjust this value */
+}
+
+.top-image img {
+  display: block;
+  max-width: 100%;
+} 
